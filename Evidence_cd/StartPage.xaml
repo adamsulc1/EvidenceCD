@@ -1,0 +1,18 @@
+﻿<Page x:Class="Evidence_cd.StartPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Evidence_cd"
+      mc:Ignorable="d"
+      d:DesignHeight="350" d:DesignWidth="350"
+      Background="#D3D3D3"
+      Title="StartPage">
+
+    <Grid VerticalAlignment="Center">
+        <StackPanel HorizontalAlignment="Center">
+            <Label x:Name="label" Content="Music Shop" HorizontalAlignment="Left" Margin="94,10,0,0" VerticalAlignment="Top" Width="156" Height="35" FontFamily="Arial" FontSize="20"/>
+            <Button x:Name="buttonContinue" Background="Gray" Content="Continue" HorizontalAlignment="Center" Margin="94,127,82,0" VerticalAlignment="Top" Width="124" Height="30" Click="buttonContinue_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

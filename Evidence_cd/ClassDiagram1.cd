@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Evidence_cd.Produkt">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAABQAAgAgAAAJAABIAAIAAIAAAIAAACAAACAA=</HashCode>
+      <FileName>Produkt.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Detail" />
+      <Property Name="Shrnutí" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Evidence_cd.User">
+    <Position X="1.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgIAAAABAAQAAABIAAAADAAAAABAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Vybírá" />
+      <Property Name="Objednává" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Evidence_cd.Detail">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAAABBAAAAAAAAAAQBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Detail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Evidence_cd.Objednavka">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objednavka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
